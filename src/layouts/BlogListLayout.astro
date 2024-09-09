@@ -59,7 +59,7 @@ function getTitle(post) {
                                         <span style={{ flex: '0 0 5rem' }}>
                                             <time class="mr-2">{formatDateMD(post.pubDate)}</time>
                                         </span>
-                                        <a rel="prefetch-intent"  href={path(post.url)}  class="panda-link-static">
+                                        <a rel="prefetch-intent"  href={"/website" + path(post.url)}  class="panda-link-static">
                                             {getTitle(post)}
                                         </a>
                                     </li>
@@ -70,20 +70,5 @@ function getTitle(post) {
                 )
             })
         }
-
-        <div class="mt-6">
-            {
-                [...tags].map((tag) => {
-                    return (
-                        <a
-                            class="mr-1 text-sm panda-link my-1 hover:font-bold"
-                            href={'/tags/' + slugifySpace(tag) + '/'}
-                        >
-                            #{t('tags.' + tag)}
-                        </a>
-                    )
-                })
-            }
-        </div>
     </main>
 </Layout>

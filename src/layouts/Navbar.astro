@@ -15,7 +15,7 @@ function isRootPage() {
 <nav class={url.toString().includes('/posts/') ? 'hidden' : ''}>
     <a
             rel="prefetch"
-            href={path('/')}
+            href={path('/website/')}
             class="panda-link mr-4 animated hover:no-underline"
             class:list={isRootPage() ? 'active' : ''}>{t('nav.posts')}</a
     >

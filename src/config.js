@@ -4,10 +4,10 @@ export const PandaConfig = {
     start: '2024',
     site: 'https://hackthellm.github.io',
     base: '/website',
-    defaultLocale: 'en',
+    defaultLocale: 'ja',
     navbar: [
         // {title: 'Posts', url: '/'}, // auto generated
-        { title: 'about', url: '/about/' }
+        { title: 'about', url: '/website/about/' }
     ],
     footer: [
         { title: 'contact', url: 'https://github.com/HackTheLLM/website/issues/new' },
