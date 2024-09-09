@@ -2,7 +2,8 @@ export const PandaConfig = {
     title: 'HackTheLLM',
     description: 'サークル HackTheLLM のウェブサイトです。',
     start: '2024',
-    site: 'https://astro-theme-panda.vercel.app/',
+    site: 'https://hackthellm.github.io',
+    base: '/website',
     defaultLocale: 'en',
     navbar: [
         // {title: 'Posts', url: '/'}, // auto generated
