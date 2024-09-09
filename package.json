@@ -40,6 +40,7 @@
         "remark-directive": "latest",
         "shikiji": "latest",
         "slash": "latest",
+        "typescript": "^5.5.4",
         "unist-util-visit": "latest",
         "unocss": "latest"
     }
